@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body {
+  padding-top: 140px;
+}
+@font-face{
+    font-family : 'NotoSansKR-Regular';
+    src : url('../fonts/NotoSansKR-Regular.otf') format('otf');
+    src : url('../fonts/NotoSansKR-Regular.woff') format('woff');
+    font-weight : normal;
+    font-style : normal;
+}
+
+/* 폰트 등록 */
+@font-face{
+    font-family : 'NotoSansKR-Regular';
+    src : url('../fonts/NotoSansKR-Regular.ttf') format('ttf'), url('../fonts/NotoSansKR-Regular.woff') format('woff');
+    font-weight : normal;
+    font-style : normal;
+}
+
+@font-face{
+    font-family : 'NotoSansKR-Medium';
+    src : url('../fonts/NotoSansKR-Medium..ttf') format('ttf'), url('../fonts/NotoSansKR-Medium..woff') format('woff');
+    font-weight : normal;
+    font-style : normal;
+}
+
+body{
+	font-family: 'NotoSansKR', Regular;
+}
+#dateViwer {
+	font-size: 90%;
+}
+#keyColor{
+	color:#ff3500;	
+}
+#userBox{
+	border: 1px; 
+	border-color: #4A3E37 ;
+	border-collapse:collapse;
+	border-radius: round;
+}
+#trCommBtn {
+	height:34px;
+	width:131px;
+	background: #ff3500;
+	color: white;
+	font-size: 14px;
+	border-radius: 20px;
+	
+}
+#commInsBtn {
+	background: #ff3500;
+	color: white;
+	font-size: 14px;
+}
+
+.fontColorGrey {
+	color:#8C8C8C;
+}
+.fontSize-14{
+	font-size:14px;
+}
+.floatLL{
+	float:left;
+}
+.floatRR{
+	float:right;
+}

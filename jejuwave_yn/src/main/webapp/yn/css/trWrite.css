@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#filterBtn, #btnNavbarSearch {
+	background: #ff3500;
+	color: white;
+}
+/* 폰트 등록 */
+@font-face{
+    font-family : 'NotoSansKR-Regular';
+    src : url('../fonts/NotoSansKR-Regular.ttf') format('ttf'), url('../fonts/NotoSansKR-Regular.woff') format('woff');
+    font-weight : normal;
+    font-style : normal;
+}
+
+@font-face{
+    font-family : 'NotoSansKR-Medium';
+    src : url('../fonts/NotoSansKR-Medium..ttf') format('ttf'), url('../fonts/NotoSansKR-Medium..woff') format('woff');
+    font-weight : normal;
+    font-style : normal;
+}
